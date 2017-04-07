@@ -1,8 +1,16 @@
-4/5/17
+4/5/17 - Wednesday
 
 HTML: Keli'i and Jessi
     -working on framework
 CSS: Kayla
     -add styles to the boxes/bubbles
 Javascript: Ian
-    -add functionality onClick
+    -add functionality onClick to test
+
+4/7/17 - Friday
+
+CSS: Kayla
+    -change divs to circles
+    -add styles to bubbles
+Javascript: Ian
+    -add functionality onClick to make bubbles disappear
