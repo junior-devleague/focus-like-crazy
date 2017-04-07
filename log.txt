@@ -1,0 +1,8 @@
+4/5/17
+
+HTML: Keli'i and Jessi
+    -working on framework
+CSS: Kayla
+    -add styles to the boxes/bubbles
+Javascript: Ian
+    -add functionality onClick
