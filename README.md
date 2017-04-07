@@ -1,7 +1,7 @@
 # focus-like-crazy
 WHS Focus Like Crazy Final Project
 
-<p>Project Manager: Not Assigned<br>
+<p>Project Manager: Ian Acosta<br>
 Developers: Ian Acosta, Jessica Lopez, Kelli McCrary, Kayla Diniega</p>
 
 <h3>Final Project Breakdown</h3>
@@ -95,11 +95,18 @@ Developers: Ian Acosta, Jessica Lopez, Kelli McCrary, Kayla Diniega</p>
 <ul>
   <li>All of the javascript will be in the js/app.js</li>
   <li>Start each task with a block comment and include your pseudo code.</li>
-  <li>Create array objects of mock data per page and store them in a variable</li>
-  <li>Dynamically display mock data per view.</li>
-  <li>Create interactive buttons for the top navigation</li>
-  <li>Sort - display data based on a keyword. Make the first items data show as default.</li>
+  <li>Create interactive buttons for the navigation</li>
+  <li>Create array objects of mock data for tips and store them in a variable</li>
+  <li>Randomly display 'tips' on Pause Page</li>
 </ul>
 
 <h2>Task Breakdown - part 2</h2>
-<ul></ul>
+<ul>
+  <li>Create Game logic</li>
+  <li>Add CSS(or image assets) for game UI</li>
+  <li>Add progress bar logic to game UI</li>
+  <li>Create timer</li>
+  <li>Add Pause screen to Game UI as an overlay</li>
+  <li>Make Pause screen 'appear' on timer increments</li>
+  <li>Allow user to resume from Pause screen</li>
+</ul>
