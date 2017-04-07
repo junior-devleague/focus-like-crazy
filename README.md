@@ -1,7 +1,7 @@
 # focus-like-crazy
 WHS Focus Like Crazy Final Project
 
-<p>Project Manager: Not Assigned<br>
+<p>Project Manager: Ian Acosta<br>
 Developers: Ian Acosta, Jessica Lopez, Kelli McCrary, Kayla Diniega</p>
 
 <h3>Final Project Breakdown</h3>
