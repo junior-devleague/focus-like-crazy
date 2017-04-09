@@ -5,3 +5,8 @@ function bubbleClick(id){
   document.getElementById(id).style.transition = "all 0.3s";
   document.getElementById(id).style.opacity = "0";
 }
+
+function blueButtonClick(id){
+	var button = document.getElementById(id);
+	
+}
