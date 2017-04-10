@@ -14,6 +14,8 @@
 
 body{
 	background-color: #EDEDED;
+  font-family: 'Lato', sans-serif;
+
 }
 .blueButton{
 	background-color: #4A90E2;
@@ -27,7 +29,7 @@ body{
   	align-items: center;
   	justify-content: center;
   	box-shadow: 0 9px #999;
-
+    font-family: 'Chewy', cursive;
 }
 .blueButton:hover {
   background-color: #3576c4;
@@ -64,4 +66,5 @@ body{
 	display: flex;
   	align-items: center;
   	justify-content: center;
+    font-family: 'Chewy', cursive;
 }
