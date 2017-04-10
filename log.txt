@@ -6,7 +6,7 @@ CSS: Kayla
     -add styles to the boxes/bubbles
 Javascript: Ian
     -add functionality onClick to test
-
+-----------------------------------------
 4/7/17 - Friday
 
 CSS: Kayla
@@ -14,3 +14,12 @@ CSS: Kayla
     -add styles to bubbles
 Javascript: Ian
     -add functionality onClick to make bubbles disappear
+-----------------------------------------
+4/10/17
+
+CSS: Kayla and Keli'i
+    -fix the styles for the the pages
+HTML: Jessi and Keli'i
+    -add the pause and how to play page
+Javascript:
+    -add sound effects to onlcicks
