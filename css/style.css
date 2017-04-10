@@ -53,3 +53,15 @@ body{
 	font-size: 50px;
 	color:#4A90E2;
 }
+.greyButton{
+	background-color: #696D6B;
+	border-radius: 10px;
+	width: 300px;
+	height: 75px;
+	margin: 10px auto;
+	color:white;
+	font-size: 25px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
