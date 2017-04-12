@@ -4,13 +4,36 @@ HTML: Keli'i and Jessi
     -working on framework
 CSS: Kayla
     -add styles to the boxes/bubbles
-Javascript: Ian
+JS: Ian
     -add functionality onClick to test
-
+-----------------------------------------
 4/7/17 - Friday
 
+HTML: Jessi and Keli'i
+    -completing and copying format onto the other pages
 CSS: Kayla
     -change divs to circles
     -add styles to bubbles
 Javascript: Ian
     -add functionality onClick to make bubbles disappear
+-------------------------------------------
+4/10/17 - Monday
+
+HTML: Jessi and Keli'i
+    -complete the rest of the pages
+CSS: Kayla
+    -make all pages have the same style (i.e. all blue buttons are the same size)
+JS: Ian
+    -Make the grid for the bubbles (place holder)
+-------------------------------------------
+4/12/17 - Wednesday
+
+HTML: Jessi and Keli'i
+    -adding the completion bar, pause/stop button on the game page
+CSS:
+    -copying button clicking effect on the grey buttons
+    -making sure the rest of the pages look like the examples
+JS: Ian and who ever else done with their task
+    -add sounds to the button clicking
+    -research how to transition between pages
+-------------------------------------------
