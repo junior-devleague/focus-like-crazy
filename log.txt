@@ -6,11 +6,7 @@ CSS: Kayla
     -add styles to the boxes/bubbles
 JS: Ian
     -add functionality onClick to test
-<<<<<<< HEAD
 -----------------------------------------
-=======
--------------------------------------------
->>>>>>> master
 4/7/17 - Friday
 
 HTML: Jessi and Keli'i
@@ -18,23 +14,7 @@ HTML: Jessi and Keli'i
 CSS: Kayla
     -change divs to circles
     -add styles to bubbles
-<<<<<<< HEAD
 Javascript: Ian
-    -add functionality onClick to make bubbles disappear
------------------------------------------
-4/10/17
-
-CSS: Kayla and Keli'i
-    -fix the styles for the the pages
-HTML: Jessi and Keli'i
-    -add the pause and how to play page
-Javascript: Ian
-    -add sound effects to onlcicks
----------------------------------------
-4/12/17
-
-=======
-JS: Ian
     -add functionality onClick to make bubbles disappear
 -------------------------------------------
 4/10/17 - Monday
@@ -57,4 +37,3 @@ JS: Ian and who ever else done with their task
     -add sounds to the button clicking
     -research how to transition between pages
 -------------------------------------------
->>>>>>> master
