@@ -90,6 +90,19 @@ Developers: Ian Acosta, Jessica Lopez, Kelli McCrary, Kayla Diniega</p>
   <li>Assign classes to reusable styles.</li>
   <li>Create a block comment if styles are for a specific view or user interaction, otherwise it's considered a general style.</li>
 </ul>
+<ul>
+  <li><b>Colors</b><ul>
+    <li>Blue: #4990E2</li>
+    <li>Light Gray: #4990E2</li>
+    <li>Medium Gray: #9B9B9B (font color)</li>
+    <li>Dark Gray: #4A4A4A</li>
+  </ul></li>
+  <li><b>Fonts</b><ul>
+    <li>Logo and Buttons: <a href="https://fonts.google.com/specimen/Chewy">Chewy</a></li>
+    <li>Headings: <a href="https://fonts.google.com/specimen/Lato">Lato Black</a></li>
+    <li>Body: <a href="https://fonts.google.com/specimen/Lato">Lato Regular</a></li>
+  </ul></li>
+</ul>
 
 <b>User Interactions</b>
 <ul>
