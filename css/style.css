@@ -20,6 +20,16 @@ body{
   font-family: 'Lato', sans-serif;
 
 }
+.bar {
+	background-color: grey;
+	border: 2px solid black; 
+}
+.exit {
+	border: 2px solid black;
+}
+.pause {
+	border: 2px solid black;
+}
 .blueButton{
 	background-color: #4A90E2;
 	border-radius: 10px;
