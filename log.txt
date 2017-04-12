@@ -21,5 +21,8 @@ CSS: Kayla and Keli'i
     -fix the styles for the the pages
 HTML: Jessi and Keli'i
     -add the pause and how to play page
-Javascript:
+Javascript: Ian
     -add sound effects to onlcicks
+---------------------------------------
+4/12/17
+
