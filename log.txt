@@ -37,3 +37,20 @@ JS: Ian and who ever else done with their task
     -add sounds to the button clicking
     -research how to transition between pages
 -------------------------------------------
+4/17/17 - Monday
+HTML: Jessi and Keli'i
+  -Move header and script into body tag
+  -Still need end-game screen
+  -Change welcome-screen to index.html and index.html to game.html
+  -Link Keep it simple button to game.html.
+  -On the welcome screen wrap buttons with a tags and link to games
+  -On pause screen change div tags into button tags instead.
+CSS: Jessi and Keli'i
+  -Add a font-weight of 300 to the body.
+  -Add Chewy font to title.
+  -Change text-transform on title and buttons to uppercase.
+JS: Ian and Kayla
+  -pseudo code:
+      -At the end of game show end-game screen
+      -Add timer + pause logic
+      -Add pause and end game logic to game UI
