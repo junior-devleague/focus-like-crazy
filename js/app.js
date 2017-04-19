@@ -1,4 +1,6 @@
 console.log("Sanity Check");
+//generates a list of bubbles that need to be clicked
+var x = 1;
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 console.log(bubblesLeft);
