@@ -16,6 +16,7 @@ for (var i = 0; i < bubble.length; i++) {
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "100";
 function bubbleClick(id){
+<<<<<<< HEAD
   if(document.getElementById(id).style.opacity != "0"){
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
@@ -32,6 +33,11 @@ function bubbleClick(id){
       console.log("done!");
     }
   }
+=======
+  document.getElementById(id).style.transition = "all 0.3s";
+      document.getElementById(id).style.opacity = "0";
+      console.log(id+" was clicked");
+>>>>>>> master
 }
 function blueButtonClick(id){
 	var button = document.getElementById(id);
@@ -49,5 +55,9 @@ if "pause" button clicked
 //end game
 /*
 if timer reaches 1 minute || all bubbles are clicked
+<<<<<<< HEAD
   then transition to end game screen (w/ different messages for when player finishes in time and when player doesn't finish in time)
+=======
+  then transition to end game screen
+>>>>>>> master
 */

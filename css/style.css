@@ -27,6 +27,7 @@ body{
 .bar {
 	background-color: grey;
 	border: 2px solid black; 
+  flex-wrap: wrap;
 }
 .exit {
 	border: 2px solid black;
