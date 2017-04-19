@@ -1,3 +1,7 @@
+.title {
+	font: 300px;
+	font-family: 'Chewy', cursive;
+}
 .bubble{
 	border: 2px grey solid;
 	border-radius: 50%;
@@ -23,6 +27,7 @@ body{
 .bar {
 	background-color: grey;
 	border: 2px solid black; 
+  flex-wrap: wrap;
 }
 .exit {
 	border: 2px solid black;
