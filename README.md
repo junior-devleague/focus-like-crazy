@@ -123,3 +123,39 @@ Developers: Ian Acosta, Jessica Lopez, Kelli McCrary, Kayla Diniega</p>
   <li>Make Pause screen 'appear' on timer increments</li>
   <li>Allow user to resume from Pause screen</li>
 </ul>
+
+<h2>After review: 4/14</h2>
+<b>To do</b>
+<h5>HTML</h5>
+<ul>
+  <li>Move header and script into body tag</li>
+  <li>Still need end-game screen</li>
+  <li>Polish how to play. Add game rules, etc.</li>
+  <li>Change welcome-screen to index.html and index.html to game.html</li>
+  <li>Link Keep it simple button to game.html.</li>
+  <li>On the welcome screen wrap buttons with a tags and link to games</li>
+  <li>On pause screen change div tags into button tags instead.</li>
+</ul>
+<h5>CSS</h5>
+<ul>
+  <li>Add a font-weight of 300 to the body.</li>
+  <li>Add Chewy font to title.</li>
+  <li>You can add text-transform on title and buttons to uppercase.</li>
+</ul>
+<h5>JS</h5>
+<ul>
+  <li>Polish Game:
+  <ul>
+    <li>At the end of game show end-game screen</li>
+    <li>Add game UI</li>
+    <li>Add pause and end game logic to game UI</li>
+    <li>Add timer + pause logic</li>
+  </ul>
+  </li>
+</ul>
+<h1>Awesome start! Game mechanics are looking good and the button actions are great. Keep it up.</h1>
+<b>Improvments</b>
+<ul>
+  <li>Ian: Keep going the game is coming together nicely. Let's task out more js to your team mates. If you need, take a day to pair program the psuedo code and work out the logic your game needs. Just a quick outline in your js. LMK if you need help.</li>
+  <li>Jess, Kayla, Kelii: The other pages are looking good. Just one more view needs to be made and lets polish the ones that are there. Would be great to have one of you help with the js and the game ui.</li>
+</ul>
