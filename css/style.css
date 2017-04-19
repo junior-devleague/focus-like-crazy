@@ -23,6 +23,7 @@ body{
 .bar {
 	background-color: grey;
 	border: 2px solid black; 
+  display: flex;
 }
 .exit {
 	border: 2px solid black;
