@@ -73,6 +73,7 @@ JS: Ian and Kayla
 
 HTML: Keli'i
   -fix merge conflicts with html
+  -fix linking between pages
 CSS: Ian
   -fix colors
   -change button styles
