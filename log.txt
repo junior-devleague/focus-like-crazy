@@ -72,5 +72,9 @@ JS: Ian and Kayla
 4/21/17 - Friday
 
 HTML: Keli'i
+  -fix merge conflicts with html
 CSS: Ian
+  -fix colors
+  -fix merge conflicts with css
 JS: Kayla
+  -figure out how to overlay puase page onto the game page

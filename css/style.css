@@ -92,7 +92,7 @@ body{
 	color:#4A90E2;
 }
 .greyButton{
-	background-color: #4A4A4A;
+	background-color: #777777;
 	border-radius: 10px;
 	width: 300px;
 	height: 75px;
@@ -103,11 +103,12 @@ body{
   	align-items: center;
   	justify-content: center;
     font-family: 'Chewy', cursive;
+    box-shadow: 0 9px #999;
 }
 .greyButton:hover {
-  background-color: #3576c4;
+  background-color: #424242;
 }
 .greyButton:active {
-  background-color: #4A4A4A;
+  background-color: #424242;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
