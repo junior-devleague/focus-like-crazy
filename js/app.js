@@ -29,6 +29,7 @@ function bubbleClick(id){
     }
     else{
       console.log("done!");
+      window.location.replace("./endgame-screen.html") //goes to the endgame html 
     }
   }
 }
@@ -49,4 +50,4 @@ if "pause" button clicked
 /*
 if timer reaches 1 minute || all bubbles are clicked
   then transition to end game screen (w/ different messages for when player finishes in time and when player doesn't finish in time)
-*/
+*/ 
