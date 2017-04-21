@@ -64,10 +64,13 @@ CSS: Jessi and Keli'i
   -Add Chewy font to title.
   -Change text-transform on title and buttons to uppercase.
 JS: Ian and Kayla
-<<<<<<< HEAD
   -add game logic to the bubbles
-=======
->>>>>>> master
   -Convert pseudo code to js
     -add timer
     -allow game to pause
+-------------------------------------------
+4/21/17 - Friday
+
+HTML: Keli'i
+CSS: Ian
+JS: Kayla
