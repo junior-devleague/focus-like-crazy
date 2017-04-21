@@ -75,6 +75,7 @@ HTML: Keli'i
   -fix merge conflicts with html
 CSS: Ian
   -fix colors
+  -change button styles
   -fix merge conflicts with css
 JS: Kayla
   -figure out how to overlay puase page onto the game page
