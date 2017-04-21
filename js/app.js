@@ -1,6 +1,5 @@
 console.log("Sanity Check");
 //generates a list of bubbles that need to be clicked
-var x = 1;
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 console.log(bubblesLeft);
@@ -17,6 +16,9 @@ var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "100";
 function bubbleClick(id){
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
   if(document.getElementById(id).style.opacity != "0"){
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
@@ -33,10 +35,13 @@ function bubbleClick(id){
       console.log("done!");
     }
   }
+<<<<<<< HEAD
 =======
   document.getElementById(id).style.transition = "all 0.3s";
       document.getElementById(id).style.opacity = "0";
       console.log(id+" was clicked");
+>>>>>>> master
+=======
 >>>>>>> master
 }
 function blueButtonClick(id){
