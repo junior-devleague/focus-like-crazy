@@ -27,7 +27,11 @@ body{
 .bar {
 	background-color: grey;
 	border: 2px solid black; 
+<<<<<<< HEAD
+  flex-wrap: wrap;
+=======
   height: 55px;
+>>>>>>> master
 }
 .exit {
 	border: 2px solid black;
