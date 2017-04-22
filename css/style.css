@@ -92,7 +92,7 @@ body{
 	color:#4A90E2;
 }
 .greyButton{
-	background-color: #777777;
+	background-color: #a8a8a8;
 	border-radius: 10px;
 	width: 300px;
 	height: 75px;
@@ -106,9 +106,16 @@ body{
     box-shadow: 0 9px #999;
 }
 .greyButton:hover {
-  background-color: #424242;
+  background-color: #878787;
 }
 .greyButton:active {
-  background-color: #424242;
+  background-color: #878787;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+a{
+	text-decoration:none;
+}
+#endGameMsg{
+
+}

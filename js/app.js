@@ -35,8 +35,9 @@ function bubbleClick(id){
 }
 function blueButtonClick(id){
 	var button = document.getElementById(id);
+  var audio = document.getElementById("audio");
+  audio.play();
 }
-
 //timer and pause screen
 /*
 if "start" button clicked
