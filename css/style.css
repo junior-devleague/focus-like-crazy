@@ -76,12 +76,16 @@ body{
   transform: translateY(4px);
 }
 
-.container{
+.container,.container-overlay{
 	 display: flex;
 	 flex-direction: column;
   	align-items: center;
   	justify-content: center;
   	height: 100%;
+}
+.container-overlay{
+  display: hidden;
+  position: fixed;
 }
 .caption{
 	color: grey;

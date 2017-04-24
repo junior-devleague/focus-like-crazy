@@ -38,6 +38,9 @@ function blueButtonClick(id){
   var audio = document.getElementById("audio");
   audio.play();
 }
+function keepPlaying(id){
+  document.getElementById(id).style.dispaly === "hidden";
+}
 //timer and pause screen
 /*
 if "start" button clicked

@@ -7,39 +7,57 @@
    </head>
    <body>
       <div class="container"><!--row 1-->
-         <div class="row">
-            <div class="grid">
-               <div class="bubble" id="bubble1""></div>
+            <div class="row">
+               <div class="grid">
+                  <div class="bubble" id="bubble1""></div>
+               </div>
+               <div class="grid">
+                  <div class="bubble" id="bubble2""></div>
+               </div>
+               <div class="grid">
+                  <div class="bubble" id="bubble3""></div>
+               </div>
             </div>
-            <div class="grid">
-               <div class="bubble" id="bubble2""></div>
+            <div class="row"><!--row 2-->
+               <div class="grid">
+                  <div class="bubble" id="bubble4""></div>
+               </div>
+               <div class="grid">
+                  <div class="bubble" id="bubble5""></div>
+               </div>
+               <div class="grid">
+                  <div class="bubble" id="bubble6""></div>
+               </div>
             </div>
-            <div class="grid">
-               <div class="bubble" id="bubble3""></div>
+            <div class="row"><!--row 3-->
+               <div class="grid">
+                  <div class="bubble" id="bubble7""></div>
+               </div>
+               <div class="grid">
+                  <div class="bubble" id="bubble8""></div>
+               </div>
+               <div class="grid">
+                  <div class="bubble" id="bubble9""></div>
+               </div>
             </div>
+      </div>
+      <div class="container-overlay">
+         <div class= "title">
+            Focus Like Crazy!
          </div>
-         <div class="row"><!--row 2-->
-            <div class="grid">
-               <div class="bubble" id="bubble4""></div>
-            </div>
-            <div class="grid">
-               <div class="bubble" id="bubble5""></div>
-            </div>
-            <div class="grid">
-               <div class="bubble" id="bubble6""></div>
-            </div>
+         <div class="caption">
+            <h2><b>STAY FOCUSED WHILE READING: PACE READ-ALOUDS</b></h2>
+            <H4>Take a short breath at each comma and a regular breath at the end of each sentence</H4>
          </div>
-         <div class="row"><!--row 3-->
-            <div class="grid">
-               <div class="bubble" id="bubble7""></div>
-            </div>
-            <div class="grid">
-               <div class="bubble" id="bubble8""></div>
-            </div>
-            <div class="grid">
-               <div class="bubble" id="bubble9""></div>
-            </div>
-         </div>
+         <button class="blueButton" id="simple" onclick="keepPlaying(this.id)">
+            KEEP PLAYING
+         </button>
+         <button class="greyButton" onclick="greyButtonClick(this.id)">
+            SETTINGS
+         </button>
+         <button class="greyButton" onclick="greyButtonClick(this.id)">
+            END GAME
+         </button>
       </div>
       <script type="text/javascript" src= "./js/app.js"></script>
    </body>   
