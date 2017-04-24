@@ -84,7 +84,7 @@ body{
   	height: 100%;
 }
 .container-overlay{
-  display: hidden;
+  display: none;
   position: fixed;
 }
 .caption{
