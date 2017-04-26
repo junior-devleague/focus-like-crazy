@@ -22,7 +22,7 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
-<<<<<<< HEAD
+
 .bar {
 	background-color: grey;
 	border: 2px solid black; 
@@ -35,15 +35,6 @@ body{
 
 .pause {
 	border: 2px solid black;
-=======
-.containerBar {
-  display: flex;
-  align-content: left;
-}
-.pauseButton{
-  background-color: #4A90E2;
-  border-radius: 10px;
->>>>>>> master
   width: 50px;
   height: 50px;
   margin: 5px auto;
