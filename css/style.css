@@ -22,10 +22,15 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
+.flex {
+  max-width: 100%;
+}
 .container-bar {
   display: flex;
   align-content: left;
   flex-direction: row;
+  max-width: 80%;
+  margin: 0 auto;
 }
 .pauseButton{
   background-color: #4A90E2;
