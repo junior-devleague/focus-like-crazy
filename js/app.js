@@ -15,7 +15,7 @@ for (var i = 0; i < bubble.length; i++) {
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "100";
 function bubbleClick(id){
-  if(document.getElementById(id).style.opacity != "0"){
+  if(document.getElementById(id).style.opacity !== "0"){
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
     console.log(id+" was clicked");
@@ -32,11 +32,28 @@ function bubbleClick(id){
       window.location.replace("./endgame-screen.html") //goes to the endgame html 
     }
   }
+  else{
+    document.getElementById(id).addEventListener('click',function(){
+      bubbleClick(this.id);
+    }, {
+      once: true
+    });
+  }
 }
 function blueButtonClick(id){
 	var button = document.getElementById(id);
   var audio = document.getElementById("audio");
   audio.play();
+}
+function keepPlaying(id){
+  document.getElementsByClassName("container-overlay")[0].style.display = "none";
+  document.getElementsByClassName("container-game")[0].style.display = "flex";
+  document.getElementsByClassName("container-bar")[0].style.display = "flex";
+}
+function pauseButtonClick(id){
+  document.getElementsByClassName("container-overlay")[0].style.display = "flex";
+  document.getElementsByClassName("container-game")[0].style.display = "none";
+  document.getElementsByClassName("container-bar")[0].style.display = "none";
 }
 //timer and pause screen
 /*
