@@ -99,22 +99,12 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-<<<<<<< HEAD
 .container,.container-overlay, .container-game{
 	display: flex;
 	flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
-=======
-
-.container,.container-overlay{
-	 display: flex;
-	 flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	height: 100%;
->>>>>>> ba8d59b7465f8f089a7c087b724f4806e35beca5
 }
 .container-overlay{
   display: none;
