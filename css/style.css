@@ -90,12 +90,8 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-<<<<<<< HEAD
-.container{
-=======
 
 .container,.container-overlay{
->>>>>>> 242fbe0bd3dcec39456791a41eb984a90a026dfa
 	 display: flex;
 	 flex-direction: column;
   	align-items: center;
