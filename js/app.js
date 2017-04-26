@@ -15,7 +15,7 @@ for (var i = 0; i < bubble.length; i++) {
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "100";
 function bubbleClick(id){
-  if(document.getElementById(id).style.opacity != "0"){
+  if(document.getElementById(id).style.opacity !== "0"){
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
     console.log(id+" was clicked");
@@ -37,6 +37,9 @@ function blueButtonClick(id){
 	var button = document.getElementById(id);
   var audio = document.getElementById("audio");
   audio.play();
+}
+function keepPlaying(id){
+  document.getElementById(id).style.dispaly === "hidden";
 }
 //timer and pause screen
 /*
