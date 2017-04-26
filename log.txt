@@ -80,7 +80,7 @@ CSS: Ian
   -fix merge conflicts with css
 JS: Kayla
   -figure out how to overlay puase page onto the game page
-  -------------------------------------------
+-------------------------------------------
 4/24/17 - Monday
 
 HTML: Keli'i & Jessi
@@ -90,3 +90,14 @@ CSS: Kayla
     -change font to chewy on the other pages
 JS: Ian & Kayla
   -figure out how to overlay puase page onto the game page
+--------------------------------------------
+4/26/17 - Wednesday
+
+HTML: Jessi
+  -add settings and pause button
+  -adjust layout for the game bar
+CSS: Kayla
+  -css that^
+JS: Keli'i & Ian
+  -figure out how to overlay puase page onto the game page
+  -
