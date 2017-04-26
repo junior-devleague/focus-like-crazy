@@ -25,6 +25,7 @@ body{
 .container-bar {
   display: flex;
   align-content: left;
+  flex-direction: row;
 }
 .pauseButton{
   background-color: #4A90E2;
@@ -38,6 +39,7 @@ body{
   font-family: 'Chewy', cursive;
   align-items: left;
     justify-content: left;
+  flex: 1 1 0px; 
 }
 .pauseButton:hover {
   background-color: #3576c4;
@@ -59,6 +61,7 @@ body{
   font-family: 'Chewy', cursive;
   align-items: left;
     justify-content: left;
+  flex: 1 1 0px;
 }
 .settingButton:hover {
   background-color: #3576c4;
@@ -67,6 +70,12 @@ body{
   background-color: #3576c4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.time{
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+  flex: 2 2 0px;
 }
 .blueButton{
 	background-color: #4A90E2;
@@ -90,12 +99,22 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+<<<<<<< HEAD
 .container,.container-overlay, .container-game{
 	display: flex;
 	flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
+=======
+
+.container,.container-overlay{
+	 display: flex;
+	 flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	height: 100%;
+>>>>>>> ba8d59b7465f8f089a7c087b724f4806e35beca5
 }
 .container-overlay{
   display: none;
