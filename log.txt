@@ -72,5 +72,21 @@ JS: Ian and Kayla
 4/21/17 - Friday
 
 HTML: Keli'i
+  -fix merge conflicts with html
+  -fix linking between pages
 CSS: Ian
+  -fix colors
+  -change button styles
+  -fix merge conflicts with css
 JS: Kayla
+  -figure out how to overlay puase page onto the game page
+  -------------------------------------------
+4/24/17 - Monday
+
+HTML: Keli'i & Jessi
+  -add more bubbles
+  -add the progress bar, pause button and time left at the top
+CSS: Kayla
+    -change font to chewy on the other pages
+JS: Ian & Kayla
+  -figure out how to overlay puase page onto the game page

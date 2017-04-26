@@ -18,12 +18,11 @@
 .row{
 	display: flex;
 }
-
 body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
-
 }
+<<<<<<< HEAD
 .bar {
 	background-color: grey;
 	border: 2px solid black; 
@@ -36,18 +35,53 @@ body{
 
 .pause {
 	border: 2px solid black;
+=======
+.containerBar {
+  display: flex;
+  align-content: left;
+}
+.pauseButton{
+  background-color: #4A90E2;
+  border-radius: 10px;
+>>>>>>> master
   width: 50px;
   height: 50px;
+  margin: 5px auto;
+  color:white;
+  font-size: 25px;
+  box-shadow: 0 9px #999;
+  font-family: 'Chewy', cursive;
+  align-items: left;
+    justify-content: left;
 }
-.kis {
-  border: 2px solid black;
+.pauseButton:hover {
+  background-color: #3576c4;
+}
+.pauseButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.settingButton{
+  background-color: #4A90E2;
+  border-radius: 10px;
   width: 50px;
   height: 50px;
+  margin: 5px auto;
+  color:white;
+  font-size: 25px;
+  box-shadow: 0 9px #999;
+  font-family: 'Chewy', cursive;
+  align-items: left;
+    justify-content: left;
 }
-.time{
-  position: absolute;
-  top: 28px;
-  left: 500px;
+.settingButton:hover {
+  background-color: #3576c4;
+}
+.settingButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .blueButton{
 	background-color: #4A90E2;
@@ -71,7 +105,6 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
 .container{
 	 display: flex;
 	 flex-direction: column;
@@ -88,7 +121,7 @@ body{
 	color:#4A90E2;
 }
 .greyButton{
-	background-color: #4A4A4A;
+	background-color: #a8a8a8;
 	border-radius: 10px;
 	width: 300px;
 	height: 75px;
@@ -99,11 +132,19 @@ body{
   	align-items: center;
   	justify-content: center;
     font-family: 'Chewy', cursive;
+    box-shadow: 0 9px #999;
 }
 .greyButton:hover {
-  background-color: #3576c4;
+  background-color: #878787;
 }
 .greyButton:active {
-  background-color: #4A4A4A;
+  background-color: #878787;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+a{
+	text-decoration:none;
+}
+#endGameMsg{
+
+}
