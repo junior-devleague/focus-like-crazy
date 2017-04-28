@@ -6,7 +6,33 @@
       <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
    </head>
    <body>
-      <div class="container"><!--row 1-->
+      <div class="container-overlay">
+         <div class= "title">
+            Focus Like Crazy!
+         </div>
+         <div class="caption">
+            <h2><b>STAY FOCUSED WHILE READING: PACE READ-ALOUDS</b></h2>
+            <H4>Take a short breath at each comma and a regular breath at the end of each sentence</H4>
+         </div>
+            <button class="blueButton" id="simple" onclick="keepPlaying(this.id)">
+               KEEP PLAYING
+            </button>
+         <button class="greyButton" onclick="greyButtonClick(this.id)">
+            SETTINGS
+         </button>
+         <a href="index.html">
+            <button class="greyButton" onclick="greyButtonClick(this.id)">
+               END GAME
+            </button>
+         </a>
+      </div>
+      <div class="containerBar">
+         <div class="pauseButton" onclick="pauseButtonClick(this.id)"><center>X</center></div>
+         <div class="settingButton" onclick="settingButtonClick(this.id)"><center>||</center></div>
+         <div class="bar"></div>
+         <div class="time"></div>
+      </div>
+      <div class="container-game">
         <div class="row"> <!-- Row 4 -->
             <div class="grid">
                <div class="bubble" id="bubble1"></div>
@@ -76,26 +102,6 @@
             </div>
          </div>
      </div>
-     <div class="container-overlay">
-         <div class= "title">
-            Focus Like Crazy!
-         </div>
-         <div class="caption">
-            <h2><b>STAY FOCUSED WHILE READING: PACE READ-ALOUDS</b></h2>
-            <H4>Take a short breath at each comma and a regular breath at the end of each sentence</H4>
-         </div>
-            <button class="blueButton" id="simple" onclick="keepPlaying(this.id)">
-               KEEP PLAYING
-            </button>
-         <button class="greyButton" onclick="greyButtonClick(this.id)">
-            SETTINGS
-         </button>
-         <a href="index.html">
-            <button class="greyButton" onclick="greyButtonClick(this.id)">
-               END GAME
-            </button>
-         </a>
-      </div>
       <script type="text/javascript" src= "./js/app.js"></script>
    </body>   
 </html>

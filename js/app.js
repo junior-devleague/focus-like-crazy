@@ -46,7 +46,14 @@ function blueButtonClick(id){
   audio.play();
 }
 function keepPlaying(id){
-  document.getElementById(id).style.dispaly === "hidden";
+  document.getElementsByClassName("container-overlay")[0].style.display = "none";
+  document.getElementsByClassName("container-game")[0].style.display = "flex";
+  document.getElementsByClassName("container-bar")[0].style.display = "flex";
+}
+function pauseButtonClick(id){
+  document.getElementsByClassName("container-overlay")[0].style.display = "flex";
+  document.getElementsByClassName("container-game")[0].style.display = "none";
+  document.getElementsByClassName("container-bar")[0].style.display = "none";
 }
 //timer and pause screen
 /*

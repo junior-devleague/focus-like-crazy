@@ -18,40 +18,64 @@
 .row{
 	display: flex;
 }
-
 body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
-
 }
-.bar {
-	background-color: grey;
-	border: 2px solid black; 
-<<<<<<< HEAD
-  flex-wrap: wrap;
-=======
-  height: 55px;
->>>>>>> master
+.container-bar {
+  display: flex;
+  align-content: left;
+  flex-direction: row;
 }
-.exit {
-	border: 2px solid black;
+.pauseButton{
+  background-color: #4A90E2;
+  border-radius: 10px;
   width: 50px;
   height: 50px;
+  margin: 5px auto;
+  color:white;
+  font-size: 25px;
+  box-shadow: 0 9px #999;
+  font-family: 'Chewy', cursive;
+  align-items: left;
+    justify-content: left;
+  flex: 1 1 0px; 
 }
-.pause {
-	border: 2px solid black;
+.pauseButton:hover {
+  background-color: #3576c4;
+}
+.pauseButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.settingButton{
+  background-color: #4A90E2;
+  border-radius: 10px;
   width: 50px;
   height: 50px;
+  margin: 5px auto;
+  color:white;
+  font-size: 25px;
+  box-shadow: 0 9px #999;
+  font-family: 'Chewy', cursive;
+  align-items: left;
+    justify-content: left;
+  flex: 1 1 0px;
 }
-.kis {
-  border: 2px solid black;
-  width: 50px;
+.settingButton:hover {
+  background-color: #3576c4;
+}
+.settingButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.time{ /*time bar*/
   height: 50px;
-}
-.time{
-  position: absolute;
-  top: 28px;
-  left: 500px;
+  width: 75px;
+  background-color: blue;
+  flex: 2 2 0px;
 }
 .blueButton{
 	background-color: #4A90E2;
@@ -62,10 +86,10 @@ body{
 	color:white;
 	font-size: 25px;
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	box-shadow: 0 9px #999;
-    font-family: 'Chewy', cursive;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 9px #999;
+  font-family: 'Chewy', cursive;
 }
 .blueButton:hover {
   background-color: #3576c4;
@@ -75,17 +99,17 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-.container,.container-overlay{
-	 display: flex;
-	 flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	height: 100%;
+.container,.container-overlay, .container-game{
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .container-overlay{
   display: none;
   position: fixed;
+  left:0; right:0;
 }
 .caption{
 	color: grey;
@@ -104,10 +128,10 @@ body{
 	color:white;
 	font-size: 25px;
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
-    font-family: 'Chewy', cursive;
-    box-shadow: 0 9px #999;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Chewy', cursive;
+  box-shadow: 0 9px #999;
 }
 .greyButton:hover {
   background-color: #878787;
