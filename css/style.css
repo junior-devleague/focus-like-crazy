@@ -31,15 +31,15 @@ body{
   background-color: #4A90E2;
   border-radius: 10px;
   width: 50px;
-  height: 50px;
-  margin: 5px auto;
+  height: 30px;
+  margin: 10px auto;
   color:white;
   font-size: 25px;
   box-shadow: 0 9px #999;
   font-family: 'Chewy', cursive;
   align-items: left;
-    justify-content: left;
-  flex: 1 1 0px; 
+  justify-content: left;
+  flex: 0.25 0.25 0px; 
 }
 .pauseButton:hover {
   background-color: #3576c4;
@@ -53,15 +53,15 @@ body{
   background-color: #4A90E2;
   border-radius: 10px;
   width: 50px;
-  height: 50px;
-  margin: 5px auto;
+  height: 30px;
+  margin: 10px auto;
   color:white;
   font-size: 25px;
   box-shadow: 0 9px #999;
   font-family: 'Chewy', cursive;
   align-items: left;
-    justify-content: left;
-  flex: 1 1 0px;
+  justify-content: left;
+  flex: 0.25 0.25 0px;
 }
 .settingButton:hover {
   background-color: #3576c4;
@@ -92,7 +92,7 @@ body{
 	height: 75px;
 	margin: 10px auto;
 	color:white;
-	font-size: 25px;
+	font-size: 45px;
 	display: flex;
   align-items: center;
   justify-content: center;
@@ -137,7 +137,7 @@ body{
 	height: 75px;
 	margin: 10px auto;
 	color:white;
-	font-size: 25px;
+	font-size: 45px;
 	display: flex;
   align-items: center;
   justify-content: center;
@@ -157,4 +157,8 @@ a{
 }
 .bubble{
   opacity: 0;
+}
+.paragraphs{
+	font-size: 35px;
+	font-family: 'Chewy', cursive;
 }
