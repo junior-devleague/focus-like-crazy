@@ -100,4 +100,13 @@ CSS: Kayla
   -css that^
 JS: Keli'i & Ian
   -figure out how to overlay puase page onto the game page
-  -
+--------------------------------------------
+4/28/17 - Friday
+
+HTML: Jessi & Keli'i
+  -continue on the bar
+  -delete and link some buttons
+CSS: Kayla
+  -fix spacing and sizes of buttons in the bar
+JS: Ian
+  -work on the timer
