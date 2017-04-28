@@ -10,7 +10,6 @@ for (var i = 0; i < bubble.length; i++) {
     }, {
       once: true
     });
-    bubble[i].style.opacity = "0";
 }
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "100";

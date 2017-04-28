@@ -109,7 +109,10 @@ body{
 .container-overlay{
   display: none;
   position: fixed;
-  left:0; right:0;
+  left:0; 
+  right:0;
+  top: 8px;
+  height: auto;
 }
 .caption{
 	color: grey;
@@ -144,6 +147,6 @@ body{
 a{
 	text-decoration:none;
 }
-#endGameMsg{
-
+.bubble{
+  opacity: 0;
 }
