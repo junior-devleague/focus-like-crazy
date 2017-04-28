@@ -78,6 +78,7 @@ body{
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .time{ /*time bar*/
   height: 50px;
   width: 75px;
@@ -93,6 +94,12 @@ body{
 >>>>>>> master
 =======
 >>>>>>> f30226a43613748ed754784774caff4f561debb6
+=======
+.bar {
+  height: 50px;
+  width: 100px;
+  background-color: lightgrey;
+>>>>>>> master
   flex: 2 2 0px;
   border-radius: 10px; 
 }
