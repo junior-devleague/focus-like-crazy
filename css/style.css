@@ -24,6 +24,7 @@ body{
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .bar {
 	background-color: grey;
@@ -36,11 +37,21 @@ body{
 =======
 .containerBar {
 =======
+=======
+.flex {
+  max-width: 100%;
+}
+>>>>>>> master
 .container-bar {
 >>>>>>> master
   display: flex;
   align-content: left;
   flex-direction: row;
+<<<<<<< HEAD
+>>>>>>> master
+=======
+  max-width: 80%;
+  margin: 0 auto;
 >>>>>>> master
 }
 
@@ -55,7 +66,7 @@ body{
   font-family: 'Chewy', cursive;
   align-items: left;
     justify-content: left;
-  flex: 1 1 0px; 
+  flex: 0.5 0.5 0px; 
 }
 .pauseButton:hover {
   background-color: #3576c4;
@@ -77,7 +88,7 @@ body{
   font-family: 'Chewy', cursive;
   align-items: left;
     justify-content: left;
-  flex: 1 1 0px;
+  flex: 0.5 0.5 0px;
 }
 .settingButton:hover {
   background-color: #3576c4;
@@ -87,11 +98,19 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.time{
+.bar {
   height: 50px;
   width: 100px;
-  background-color: blue;
+  background-color: lightgrey;
   flex: 2 2 0px;
+  border-radius: 10px; 
+}
+.time {
+  height: 50px;
+  width: 100px;
+  background-color: lightgrey;
+  flex: 1 1 0px;
+  border-radius: 10px;
 }
 .blueButton{
 	background-color: #4A90E2;
