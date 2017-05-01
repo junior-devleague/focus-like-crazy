@@ -22,40 +22,25 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
-<<<<<<< HEAD
-
-.bar {
-	background-color: grey;
-	border: 2px solid black; 
-
-.exit {
-	border: 2px solid black;
-  width: 50px;
-  height: 50px;
-
-.flex {
-  max-width: 100%;
-}
-=======
->>>>>>> master
 .container-bar {
   display: flex;
   align-content: left;
   flex-direction: row;
 }
 
-.pause {
-	border: 2px solid black;
+.pauseButton {
+  background-color: #4A90E2;
+  border-radius: 10px;
   width: 50px;
-  height: 30px;
-  margin: 10px auto;
+  height: 35px;
+  margin: 03px auto;
   color:white;
   font-size: 25px;
   box-shadow: 0 9px #999;
   font-family: 'Chewy', cursive;
   align-items: left;
   justify-content: left;
-  flex: 0.25 0.25 0px; 
+  flex: 0.04 0.04 0px;
 }
 .pauseButton:hover {
   background-color: #3576c4;
@@ -68,16 +53,16 @@ body{
 .settingButton{
   background-color: #4A90E2;
   border-radius: 10px;
-  width: 50px;
-  height: 30px;
-  margin: 10px auto;
+  width: 25px;
+  height: 35px;
+  margin: 03px auto;
   color:white;
   font-size: 25px;
   box-shadow: 0 9px #999;
   font-family: 'Chewy', cursive;
   align-items: left;
   justify-content: left;
-  flex: 0.25 0.25 0px;
+  flex: 0.04 0.04 0px;
 }
 .settingButton:hover {
   background-color: #3576c4;
