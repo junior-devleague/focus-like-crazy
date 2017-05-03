@@ -48,14 +48,18 @@ function pauseButtonClick(id){
 if (window.location.href.indexOf("game") != -1){
   window.onload = function(){
    setTimeout(function(){
-       alert("Hello");
-
+       timerBarStart()
    }, 1000);
    setTimeout(function(){
-       alert("You're done");
-       
-   }, 3000);
+       window.location.replace("./endgame-screen.html");
+   }, 21000);
   };
+}
+
+function timerBarStart() {
+  var bar = document.getElementById("time");
+  bar.style.transition = "all 20s";
+  bar.style.width = "100%";
 }
 /*function myFunction() {
     alert("Hello");
