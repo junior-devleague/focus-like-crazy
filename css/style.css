@@ -22,34 +22,27 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
+.bar {
+	background-color: grey;
+	border: 2px solid black; 
+}
+.exit {
+	border: 2px solid black;
+  width: 50px;
+  height: 50px;
+}
+.flex {
+  max-width: 100%;
+}
 .container-bar {
   display: flex;
   align-content: left;
   flex-direction: row;
 }
-.pauseButton {
-	border-radius: 10px;
-	background-color: #4A90E2;
-  width: 50px;
-  height: 30px;
-  margin: 10px 10px auto 10px;
-  color:white;
-  font-size: 25px;
-  box-shadow: 0 9px #999;
-  font-family: 'Chewy', cursive;
-  align-items: left;
-  justify-content: left;
-  flex: 0.10 0.10 15px;
+.overlay-content{
+  display: none;
 }
-.pauseButton:hover {
-  background-color: #3576c4;
-}
-.pauseButton:active {
-  background-color: #3576c4;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.settingButton{
+.settingButton, .pauseButton{
   background-color: #4A90E2;
   border-radius: 10px;
   width: 50px;
@@ -63,10 +56,10 @@ body{
   justify-content: left;
   flex: 0.10 0.10 15px;
 }
-.settingButton:hover {
+.settingButton:hover, .pauseButton:hover {
   background-color: #3576c4;
 }
-.settingButton:active {
+.settingButton:active,.pauseButton:active{
   background-color: #3576c4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -76,13 +69,6 @@ body{
   width: 75px;
   background-color: blue;
   flex: 2 2 0px;
-  border-radius: 10px;
-}
-.time {
-  height: 50px;
-  width: 100px;
-  background-color: lightgrey;
-  flex: 0.5 0.5 0px;
   border-radius: 10px;
 }
 .blueButton{

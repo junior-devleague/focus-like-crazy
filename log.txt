@@ -110,3 +110,7 @@ CSS: Kayla
   -fix spacing and sizes of buttons in the bar
 JS: Ian
   -work on the timer
+
+stretch goals:
+  -change the tips on the pause screen
+  -make different levels dynamic

@@ -19,13 +19,9 @@ function bubbleClick(id){
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
     console.log(id+" was clicked");
-
-    //console.log(bubblesLeft.length);
     if (bubblesLeft.length>0) {
       num = Math.floor(Math.random() * bubblesLeft.length);
-      bubble[bubblesLeft[num]].style.opacity = "100";
-      //console.log(bubblesLeft);
-    }
+      bubble[bubblesLeft[num]].style.opacity = "100";    }
     else{
       console.log("done!");
       window.location.replace("./endgame-screen.html") //goes to the endgame html 
@@ -38,11 +34,6 @@ function bubbleClick(id){
       once: true
     });
   }
-}
-function blueButtonClick(id){
-	var button = document.getElementById(id);
-  var audio = document.getElementById("audio");
-  audio.play();
 }
 function keepPlaying(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "none";
