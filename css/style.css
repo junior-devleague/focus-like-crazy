@@ -22,9 +22,18 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
-.bar {
+#bar {
+  width: 75%;
 	background-color: grey;
-	border: 2px solid black; 
+	border: 4px solid black; 
+  border-radius: 14px;
+}
+#time{ /*time bar*/
+  width: 0%;
+  height: 50px;
+  background-color:#4A90E2;
+  flex: 2 2 0px;
+  border-radius: 10px;
 }
 .exit {
 	border: 2px solid black;
@@ -32,12 +41,13 @@ body{
   height: 50px;
 }
 .flex {
-  max-width: 100%;
+  max-width: 80%;
 }
 .container-bar {
   display: flex;
   align-content: left;
   flex-direction: row;
+  justify-content: flex-start;
 }
 .overlay-content{
   display: none;
@@ -45,8 +55,8 @@ body{
 .settingButton, .pauseButton{
   background-color: #4A90E2;
   border-radius: 10px;
-  width: 50px;
-  height: 30px;
+  width: 10%;
+  height: 3%;
   margin: 10px 15px auto 10px;
   color:white;
   font-size: 25px;
@@ -54,7 +64,6 @@ body{
   font-family: 'Chewy', cursive;
   align-items: left;
   justify-content: left;
-  flex: 0.10 0.10 15px;
 }
 .settingButton:hover, .pauseButton:hover {
   background-color: #3576c4;
@@ -63,13 +72,6 @@ body{
   background-color: #3576c4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-.time{ /*time bar*/
-  height: 50px;
-  width: 75px;
-  background-color: blue;
-  flex: 2 2 0px;
-  border-radius: 10px;
 }
 .blueButton{
 	background-color: #4A90E2;
