@@ -45,6 +45,21 @@ function pauseButtonClick(id){
   document.getElementsByClassName("container-game")[0].style.display = "none";
   document.getElementsByClassName("container-bar")[0].style.display = "none";
 }
+if (window.location.href.indexOf("game") != -1){
+  window.onload = function(){
+   setTimeout(function(){
+       alert("Hello");
+
+   }, 1000);
+   setTimeout(function(){
+       alert("You're done");
+       
+   }, 3000);
+  };
+}
+/*function myFunction() {
+    alert("Hello");
+}*/
 //timer and pause screen
 /*
 if "start" button clicked
