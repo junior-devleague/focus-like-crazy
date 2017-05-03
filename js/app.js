@@ -45,6 +45,25 @@ function pauseButtonClick(id){
   document.getElementsByClassName("container-game")[0].style.display = "none";
   document.getElementsByClassName("container-bar")[0].style.display = "none";
 }
+if (window.location.href.indexOf("game") != -1){
+  window.onload = function(){
+   setTimeout(function(){
+       timerBarStart()
+   }, 1000);
+   setTimeout(function(){
+       window.location.replace("./endgame-screen.html");
+   }, 21000);
+  };
+}
+
+function timerBarStart() {
+  var bar = document.getElementById("time");
+  bar.style.transition = "all 20s";
+  bar.style.width = "100%";
+}
+/*function myFunction() {
+    alert("Hello");
+}*/
 //timer and pause screen
 /*
 if "start" button clicked
