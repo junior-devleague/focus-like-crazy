@@ -12,16 +12,17 @@ for (var i = 0; i < bubble.length; i++) {
     });
 }
 var num = Math.floor(Math.random() * bubblesLeft.length);
-bubble[num].style.opacity = "100";
+console.log(bubble[num]);
+bubble[num].style.opacity = "1";
 function bubbleClick(id){
-  if(document.getElementById(id).style.opacity == "100"){
+  if(document.getElementById(id).style.opacity == "1"){
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
     console.log(id+" was clicked");
     if (bubblesLeft.length>0) {
       num = Math.floor(Math.random() * bubblesLeft.length);
-      bubble[bubblesLeft[num]].style.opacity = "100";    }
+      bubble[bubblesLeft[num]].style.opacity = "1";    }
     else{
       console.log("done!");
       window.location.replace("./endgame-screen.html") //goes to the endgame html 
