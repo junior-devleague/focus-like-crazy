@@ -114,3 +114,22 @@ JS: Ian
 stretch goals:
   -change the tips on the pause screen
   -make different levels dynamic
+--------------------------------------------
+5/3/17 - Wednesday
+
+--------------------------------------------
+5/5/17 - Friday
+
+--------------------------------------------
+5/9/17 - Monday
+
+HTML: Jessi 
+  -remove slip button
+  -add overlay for exit button
+  -add how to play
+CSS: Keli'i
+  -design for the overlay
+JS: Kayla & Ian
+  -fix progress bar
+  -link exit button
+  -
