@@ -22,10 +22,11 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
+
 #bar {
   width: 75%;
 	background-color: grey;
-	border: 4px solid black; 
+	border: 4px solid black;
   border-radius: 14px;
 }
 #time{ /*time bar*/
@@ -33,6 +34,26 @@ body{
   height: 50px;
   background-color:#4A90E2;
   flex: 2 2 0px;
+  border-radius: 10px;
+}
+#completion-bar {
+	width: 25%;
+	height: 50px;
+	background-color: grey;
+	border: 4px solid black;
+	border-radius: 14px;
+	margin: 0px 0px 0px 10px;
+}
+#completion-bar > p {
+	color: white;
+	display;: inline-block;
+	position: absolute;
+}
+#complete {
+	width: 0%;
+  height: 50px;
+  background-color: rgba(244, 209, 66,0.95);
+	flex: 2 2 0px;
   border-radius: 10px;
 }
 .exit {
@@ -43,11 +64,21 @@ body{
 .flex {
   max-width: 80%;
 }
+
 .container-bar {
   display: flex;
   align-content: left;
   flex-direction: row;
   justify-content: flex-start;
+}
+
+.pauseButton:hover {
+  background-color: #3576c4;
+}
+.pauseButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .overlay-content{
   display: none;
@@ -150,6 +181,9 @@ a{
 	font-size: 35px;
 	font-family: 'Chewy', cursive;
 }
+<<<<<<< HEAD
 p {
   text-align: center;
 }
+=======
+>>>>>>> master
