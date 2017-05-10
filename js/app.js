@@ -2,6 +2,7 @@ console.log("Sanity Check");
 //generates a list of bubbles that need to be clicked
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
+var progress = 0; //the percentage for the bar
 console.log(bubblesLeft);
 for (var i = 0; i < bubble.length; i++) {
     bubblesLeft.push("bubble"+(i+1));
@@ -15,7 +16,9 @@ var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "100";
 function bubbleClick(id){
   if(document.getElementById(id).style.opacity == "100"){
+    progress += 5;
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
+    completion(bubblesLeft.length,progress);
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
     console.log(id+" was clicked");
@@ -24,7 +27,7 @@ function bubbleClick(id){
       bubble[bubblesLeft[num]].style.opacity = "100";    }
     else{
       console.log("done!");
-      window.location.replace("./endgame-screen.html") //goes to the endgame html 
+      window.location.replace("./endgame-screen.html") //goes to the endgame html
     }
   }
   else{
@@ -61,6 +64,15 @@ function timerBarStart() {
   bar.style.transition = "all 20s";
   bar.style.width = "100%";
 }
+
+function completion(completion, progress) {
+  var comp = document.getElementById("complete");
+  var dom = document.getElementById("completion-bar").getElementsByTagName("p");
+  dom[0].innerHTML = "" + completion + "/20";
+  console.log(dom[0]);
+  comp.style.transition = "all 0.5s ease";
+  comp.style.width = progress +"%";
+}
 /*function myFunction() {
     alert("Hello");
 }*/
@@ -77,4 +89,4 @@ if "pause" button clicked
 /*
 if timer reaches 1 minute || all bubbles are clicked
   then transition to end game screen (w/ different messages for when player finishes in time and when player doesn't finish in time)
-*/ 
+*/
