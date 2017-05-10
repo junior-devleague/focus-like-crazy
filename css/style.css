@@ -22,6 +22,7 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
+
 #bar {
   width: 75%;
 	background-color: grey;
@@ -63,6 +64,7 @@ body{
 .flex {
   max-width: 80%;
 }
+
 .container-bar {
   display: flex;
   align-content: left;
@@ -70,6 +72,14 @@ body{
   justify-content: flex-start;
 }
 
+.pauseButton:hover {
+  background-color: #3576c4;
+}
+.pauseButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .overlay-content{
   display: none;
 }
