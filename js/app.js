@@ -15,12 +15,8 @@ for (var i = 0; i < bubble.length; i++) {
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "1";
 function bubbleClick(id){
-<<<<<<< HEAD
   if(document.getElementById(id).style.opacity == "1"){
-=======
-  if(document.getElementById(id).style.opacity == "100"){
     progress += 5;
->>>>>>> master
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
     completion(bubblesLeft.length,progress);
     document.getElementById(id).style.transition = "all 0.3s";
@@ -30,7 +26,7 @@ function bubbleClick(id){
       num = Math.floor(Math.random() * bubblesLeft.length);
       bubble[bubblesLeft[num]].style.opacity = "1";    }
     else{
-      console.log("done!");
+      alert("You're Fast!");
       window.location.replace("./endgame-screen.html") //goes to the endgame html
     }
   }
@@ -65,9 +61,11 @@ function timerBarStart() {
     var bar = document.getElementById("time"); 
     var width = 0;
     var id = setInterval(frame, 200);
+    bar.style.transition = "all 0.5s ease";
     function frame() {
         if (width >= 100) {
             clearInterval(id);
+            alert("Time's UP!");
             window.location.replace("./endgame-screen.html");
         } else {
             width++; 
@@ -78,9 +76,6 @@ function timerBarStart() {
 
 function completion(completion, progress) {
   var comp = document.getElementById("complete");
-  var dom = document.getElementById("completion-bar").getElementsByTagName("p");
-  dom[0].innerHTML = "" + completion + "/20";
-  console.log(dom[0]);
   comp.style.transition = "all 0.5s ease";
   comp.style.width = progress +"%";
 }
