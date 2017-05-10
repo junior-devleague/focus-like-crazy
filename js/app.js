@@ -3,6 +3,7 @@ console.log("Sanity Check");
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 var progress = 0; //the percentage for the bar
+var pause =false;
 console.log(bubblesLeft);
 for (var i = 0; i < bubble.length; i++) {
     bubblesLeft.push("bubble"+(i+1));
@@ -13,9 +14,9 @@ for (var i = 0; i < bubble.length; i++) {
     });
 }
 var num = Math.floor(Math.random() * bubblesLeft.length);
-bubble[num].style.opacity = "100";
+bubble[num].style.opacity = "1";
 function bubbleClick(id){
-  if(document.getElementById(id).style.opacity == "100"){
+  if(document.getElementById(id).style.opacity == "1"){
     progress += 5;
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
     completion(bubblesLeft.length,progress);
@@ -24,9 +25,9 @@ function bubbleClick(id){
     console.log(id+" was clicked");
     if (bubblesLeft.length>0) {
       num = Math.floor(Math.random() * bubblesLeft.length);
-      bubble[bubblesLeft[num]].style.opacity = "100";    }
+      bubble[bubblesLeft[num]].style.opacity = "1";    }
     else{
-      console.log("done!");
+      alert("You're Fast!");
       window.location.replace("./endgame-screen.html") //goes to the endgame html
     }
   }
@@ -42,34 +43,43 @@ function keepPlaying(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "none";
   document.getElementsByClassName("container-game")[0].style.display = "flex";
   document.getElementsByClassName("container-bar")[0].style.display = "flex";
+  pause=false;
 }
 function pauseButtonClick(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "flex";
   document.getElementsByClassName("container-game")[0].style.display = "none";
   document.getElementsByClassName("container-bar")[0].style.display = "none";
+  pause=true;
 }
 if (window.location.href.indexOf("game") != -1){
   window.onload = function(){
    setTimeout(function(){
        timerBarStart()
    }, 1000);
-   setTimeout(function(){
-       window.location.replace("./endgame-screen.html");
-   }, 21000);
   };
 }
 
 function timerBarStart() {
-  var bar = document.getElementById("time");
-  bar.style.transition = "all 20s";
-  bar.style.width = "100%";
+    var bar = document.getElementById("time"); 
+    var width = 0;
+    var id = setInterval(frame, 200);
+    bar.style.transition = "all 0.5s ease";
+    function frame() {
+      if(pause==false){
+        if (width >= 100) {
+            clearInterval(id);
+            alert("Time's UP!");
+            window.location.replace("./endgame-screen.html");
+        } else {
+            width++; 
+            bar.style.width = width + '%'; 
+        }
+      }
+    }
 }
 
 function completion(completion, progress) {
   var comp = document.getElementById("complete");
-  var dom = document.getElementById("completion-bar").getElementsByTagName("p");
-  dom[0].innerHTML = "" + completion + "/20";
-  console.log(dom[0]);
   comp.style.transition = "all 0.5s ease";
   comp.style.width = progress +"%";
 }

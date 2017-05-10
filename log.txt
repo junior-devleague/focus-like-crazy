@@ -132,4 +132,12 @@ CSS: Keli'i
 JS: Kayla & Ian
   -fix progress bar
   -link exit button
-  -
+--------------------------------------------
+5/10/17 - Wednesday
+
+HTML: Jessi 
+  -add overlay for exit button
+CSS: Keli'i
+  -design for the overlay
+JS: Kayla & Ian
+  -link exit button
