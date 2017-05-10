@@ -51,6 +51,14 @@ function pauseButtonClick(id){
   document.getElementsByClassName("container-bar")[0].style.display = "none";
   pause=true;
 }
+
+function exitButtonClick(id){
+  document.getElementsByClassName("overlay-content")[0].style.display = "flex";
+  document.getElementsByClassName("container-game")[0].style.display = "none";
+  document.getElementsByClassName("container-bar")[0].style.display = "none";
+  pause=true;
+}
+
 if (window.location.href.indexOf("game") != -1){
   window.onload = function(){
    setTimeout(function(){
