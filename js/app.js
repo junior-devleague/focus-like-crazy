@@ -3,6 +3,7 @@ console.log("Sanity Check");
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 var progress = 0; //the percentage for the bar
+var pause =false;
 console.log(bubblesLeft);
 for (var i = 0; i < bubble.length; i++) {
     bubblesLeft.push("bubble"+(i+1));
@@ -42,12 +43,13 @@ function keepPlaying(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "none";
   document.getElementsByClassName("container-game")[0].style.display = "flex";
   document.getElementsByClassName("container-bar")[0].style.display = "flex";
+  pause=false;
 }
 function pauseButtonClick(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "flex";
   document.getElementsByClassName("container-game")[0].style.display = "none";
   document.getElementsByClassName("container-bar")[0].style.display = "none";
-  clearTimeout(myVar);
+  pause=true;
 }
 if (window.location.href.indexOf("game") != -1){
   window.onload = function(){
@@ -63,6 +65,7 @@ function timerBarStart() {
     var id = setInterval(frame, 200);
     bar.style.transition = "all 0.5s ease";
     function frame() {
+      if(pause==false){
         if (width >= 100) {
             clearInterval(id);
             alert("Time's UP!");
@@ -71,6 +74,7 @@ function timerBarStart() {
             width++; 
             bar.style.width = width + '%'; 
         }
+      }
     }
 }
 
