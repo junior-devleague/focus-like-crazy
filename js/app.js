@@ -16,12 +16,6 @@ var num = Math.floor(Math.random() * bubblesLeft.length);
 console.log(bubble[num]);
 bubble[num].style.opacity = "1";
 function bubbleClick(id){
-<<<<<<< HEAD
-  if(document.getElementById(id).style.opacity == "1"){
-=======
-  if(document.getElementById(id).style.opacity == "100"){
-    progress += 5;
->>>>>>> master
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
     completion(bubblesLeft.length,progress);
     document.getElementById(id).style.transition = "all 0.3s";
