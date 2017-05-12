@@ -48,6 +48,9 @@ body{
   max-width: 80%;
 }
 
+#complete, #time{
+  -webkit-transition: all 0.5 ease;
+}
 .container-bar {
   display: flex;
   align-content: left;
