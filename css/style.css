@@ -164,3 +164,15 @@ a{
 	font-size: 35px;
 	font-family: 'Chewy', cursive;
 }
+#bubble1, #bubble7, #bubble18, #bubble19, #bubble20{
+  background-color: orange;
+}
+#bubble16, #bubble12, #bubble3, #bubble4, #bubble5{
+  background-color: yellow;
+}
+#bubble6, #bubble17, #bubble8, #bubble9, #bubble10{
+  background-color: skyblue;
+}
+#bubble11, #bubble2, #bubble13, #bubble14, #bubble15{
+  background-color: lightgreen;
+}
