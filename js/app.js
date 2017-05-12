@@ -19,7 +19,7 @@ function bubbleClick(id){
   if(document.getElementById(id).style.opacity == "1"){
     progress += 5;
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
-    completion(bubblesLeft.length,progress);
+    completion(progress);
     document.getElementById(id).style.transition = "all 0.3s";
     document.getElementById(id).style.opacity = "0";
     console.log(id+" was clicked");
@@ -78,7 +78,7 @@ function timerBarStart() {
     }
 }
 
-function completion(completion, progress) {
+function completion(progress) {
   var comp = document.getElementById("complete");
   comp.style.transition = "all 0.5s ease";
   comp.style.width = progress +"%";
