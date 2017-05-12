@@ -64,7 +64,6 @@ function timerBarStart() {
     var bar = document.getElementById("time"); 
     var id = setInterval(frame, 200);
     bar.style.transition = "all 0.5s ease";
-    bar.style.setProperty("-webkit-transition", "all 0.5s ease");
     function frame() {
       if(pause==false){
         if (width >= 100) {
@@ -81,6 +80,5 @@ function timerBarStart() {
 function completion(completion, progress) {
   var comp = document.getElementById("complete");
   comp.style.transition = "all 0.5s ease";
-  comp.style.setProperty("-webkit-transition", "all 0.5s ease");
   comp.style.width = progress +"%";
 }
