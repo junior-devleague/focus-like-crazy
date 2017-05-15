@@ -68,7 +68,7 @@ body{
 .overlay-content{
   display: none;
 }
-.settingButton, .pauseButton{
+.exitButton, .pauseButton{
   background-color: #4A90E2;
   border-radius: 10px;
   width: 10%;
@@ -81,10 +81,10 @@ body{
   align-items: left;
   justify-content: left;
 }
-.settingButton:hover, .pauseButton:hover {
+.exitButton:hover, .pauseButton:hover {
   background-color: #3576c4;
 }
-.settingButton:active,.pauseButton:active{
+.exitButton:active,.pauseButton:active{
   background-color: #3576c4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -129,6 +129,7 @@ body{
 .caption{
 	color: grey;
 	margin: 50px 0px;
+  font-size: 25px;
 }
 .title{
 	font-size: 50px;
@@ -163,7 +164,7 @@ a{
   opacity: 0;
 }
 .paragraphs{
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Chewy', cursive;
 }
 #bubble1, #bubble7, #bubble18, #bubble19, #bubble20{
