@@ -69,24 +69,22 @@ if (window.location.href.indexOf("game") != -1){
 }
 var width = 0;
 function timerBarStart() {
-    var bar = document.getElementById("time"); 
-    var id = setInterval(frame, 200);
-    bar.style.transition = "all 0.5s ease";
-    function frame() {
-      if(pause==false){
-        if (width >= 100) {
-            clearInterval(id);
-            alert("Time's UP!");
-        } else {
-            width++; 
-            bar.style.width = width + '%'; 
-        }
+  var bar = document.getElementById("time"); 
+  var id = setInterval(frame, 200);
+  function frame() {
+    if(pause==false){
+      if (width >= 100) {
+          clearInterval(id);
+          alert("Time's UP!");
+          window.location.replace("./endgame-screen.html");
+      } else {
+          width++; 
+          bar.style.width = width + '%'; 
       }
     }
+  }
 }
-
 function completion(completion, progress) {
   var comp = document.getElementById("complete");
-  comp.style.transition = "all 0.5s ease";
   comp.style.width = progress +"%";
 }
