@@ -1,5 +1,4 @@
 console.log("Sanity Check");
-//generates a list of bubbles that need to be clicked
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 var progress = 0; //the percentage for the bar
