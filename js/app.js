@@ -4,6 +4,7 @@ var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 var progress = 0; //the percentage for the bar
 var pause =false;
+var score = width*0.2;
 console.log(bubblesLeft);
 for (var i = 0; i < bubble.length; i++) {
     bubblesLeft.push("bubble"+(i+1));
@@ -28,7 +29,7 @@ function bubbleClick(id){
       bubble[bubblesLeft[num]].style.opacity = "1";    }
     else{
       alert("You're Fast!");
-      window.location.replace("./endgame-screen.html") //goes to the endgame html
+      window.location.replace("./endgame-screen.html");
     }
   }
   else{
@@ -66,10 +67,9 @@ if (window.location.href.indexOf("game") != -1){
    }, 1000);
   };
 }
-
+var width = 0;
 function timerBarStart() {
     var bar = document.getElementById("time"); 
-    var width = 0;
     var id = setInterval(frame, 200);
     bar.style.transition = "all 0.5s ease";
     function frame() {
@@ -77,7 +77,6 @@ function timerBarStart() {
         if (width >= 100) {
             clearInterval(id);
             alert("Time's UP!");
-            window.location.replace("./endgame-screen.html");
         } else {
             width++; 
             bar.style.width = width + '%'; 
@@ -91,20 +90,3 @@ function completion(completion, progress) {
   comp.style.transition = "all 0.5s ease";
   comp.style.width = progress +"%";
 }
-/*function myFunction() {
-    alert("Hello");
-}*/
-//timer and pause screen
-/*
-if "start" button clicked
-  then start timer
-if "pause" button clicked
-  then pause timer
-  then transition to pause screen
-*/
-
-//end game
-/*
-if timer reaches 1 minute || all bubbles are clicked
-  then transition to end game screen (w/ different messages for when player finishes in time and when player doesn't finish in time)
-*/
