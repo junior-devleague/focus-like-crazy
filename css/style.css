@@ -22,25 +22,41 @@ body{
 	background-color: #EDEDED;
   font-family: 'Lato', sans-serif;
 }
+#bar {
+  width: 75%;
+	background-color: grey;
+	border: 4px solid black;
+}
+#time{ /*time bar*/
+  width: 0%;
+  height: 50%;
+  background-color:#4A90E2;
+}
+#complete {
+	width: 0%;
+  height: 50%;
+  background-color: rgba(244, 209, 66,0.95);
+}
+.exit {
+	border: 2px solid black;
+  width: 50px;
+  height: 50px;
+}
+.flex {
+  max-width: 80%;
+}
+
+#complete, #time{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .container-bar {
   display: flex;
   align-content: left;
   flex-direction: row;
+  justify-content: flex-start;
 }
-.pauseButton{
-  background-color: #4A90E2;
-  border-radius: 10px;
-  width: 50px;
-  height: 50px;
-  margin: 5px auto;
-  color:white;
-  font-size: 25px;
-  box-shadow: 0 9px #999;
-  font-family: 'Chewy', cursive;
-  align-items: left;
-    justify-content: left;
-  flex: 1 1 0px; 
-}
+
 .pauseButton:hover {
   background-color: #3576c4;
 }
@@ -49,33 +65,29 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.settingButton{
+.overlay-content{
+  display: none;
+}
+.exitButton, .pauseButton{
   background-color: #4A90E2;
   border-radius: 10px;
-  width: 50px;
-  height: 50px;
-  margin: 5px auto;
+  width: 10%;
+  height: 3%;
+  margin: 10px 15px auto 10px;
   color:white;
   font-size: 25px;
   box-shadow: 0 9px #999;
   font-family: 'Chewy', cursive;
   align-items: left;
-    justify-content: left;
-  flex: 1 1 0px;
+  justify-content: left;
 }
-.settingButton:hover {
+.exitButton:hover, .pauseButton:hover {
   background-color: #3576c4;
 }
-.settingButton:active {
+.exitButton:active,.pauseButton:active{
   background-color: #3576c4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-.time{ /*time bar*/
-  height: 50px;
-  width: 75px;
-  background-color: blue;
-  flex: 2 2 0px;
 }
 .blueButton{
 	background-color: #4A90E2;
@@ -84,7 +96,7 @@ body{
 	height: 75px;
 	margin: 10px auto;
 	color:white;
-	font-size: 25px;
+	font-size: 45px;
 	display: flex;
   align-items: center;
   justify-content: center;
@@ -109,7 +121,7 @@ body{
 .container-overlay{
   display: none;
   position: fixed;
-  left:0; 
+  left:0;
   right:0;
   top: 8px;
   height: auto;
@@ -117,6 +129,7 @@ body{
 .caption{
 	color: grey;
 	margin: 50px 0px;
+  font-size: 25px;
 }
 .title{
 	font-size: 50px;
@@ -129,7 +142,7 @@ body{
 	height: 75px;
 	margin: 10px auto;
 	color:white;
-	font-size: 25px;
+	font-size: 45px;
 	display: flex;
   align-items: center;
   justify-content: center;
@@ -149,4 +162,20 @@ a{
 }
 .bubble{
   opacity: 0;
+}
+.paragraphs{
+	font-size: 30px;
+	font-family: 'Chewy', cursive;
+}
+#bubble1, #bubble7, #bubble18, #bubble19, #bubble20{
+  background-color: orange;
+}
+#bubble16, #bubble12, #bubble3, #bubble4, #bubble5{
+  background-color: yellow;
+}
+#bubble6, #bubble17, #bubble8, #bubble9, #bubble10{
+  background-color: skyblue;
+}
+#bubble11, #bubble2, #bubble13, #bubble14, #bubble15{
+  background-color: lightgreen;
 }

@@ -100,4 +100,44 @@ CSS: Kayla
   -css that^
 JS: Keli'i & Ian
   -figure out how to overlay puase page onto the game page
-  -
+--------------------------------------------
+4/28/17 - Friday
+
+HTML: Jessi & Keli'i
+  -continue on the bar
+  -delete and link some buttons
+CSS: Kayla
+  -fix spacing and sizes of buttons in the bar
+JS: Ian
+  -work on the timer
+
+stretch goals:
+  -change the tips on the pause screen
+  -make different levels dynamic
+--------------------------------------------
+5/3/17 - Wednesday
+
+--------------------------------------------
+5/5/17 - Friday
+
+--------------------------------------------
+5/9/17 - Monday
+
+HTML: Jessi 
+  -remove slip button
+  -add overlay for exit button
+  -add how to play
+CSS: Keli'i
+  -design for the overlay
+JS: Kayla & Ian
+  -fix progress bar
+  -link exit button
+--------------------------------------------
+5/10/17 - Wednesday
+
+HTML: Jessi 
+  -add overlay for exit button
+CSS: Keli'i
+  -design for the overlay
+JS: Kayla & Ian
+  -link exit button
