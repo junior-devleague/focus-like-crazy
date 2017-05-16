@@ -1,12 +1,4 @@
 console.log("Sanity Check");
-var nullThing = null;
-var undThing;
-undecThing = 1;
-
-console.log(typeof(nullThing));
-console.log(typeof(undThing));
-console.log(delete undeclared );
-//generates a list of bubbles that need to be clicked
 var bubble = document.getElementsByClassName("bubble");
 var bubblesLeft = [];
 var progress = 0; //the percentage for the bar
@@ -55,13 +47,6 @@ function keepPlaying(id){
 }
 function pauseButtonClick(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "flex";
-  document.getElementsByClassName("container-game")[0].style.display = "none";
-  document.getElementsByClassName("container-bar")[0].style.display = "none";
-  pause=true;
-}
-
-function exitButtonClick(id){
-  document.getElementsByClassName("overlay-content")[0].style.display = "flex";
   document.getElementsByClassName("container-game")[0].style.display = "none";
   document.getElementsByClassName("container-bar")[0].style.display = "none";
   pause=true;
