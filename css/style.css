@@ -166,6 +166,7 @@ a{
 .paragraphs{
 	font-size: 30px;
 	font-family: 'Chewy', cursive;
+  text-align: justify;
 }
 #bubble1, #bubble7, #bubble18, #bubble19, #bubble20{
   background-color: orange;
