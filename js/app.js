@@ -4,6 +4,7 @@ var bubblesLeft = [];
 var progress = 0; //the percentage for the bar
 var pause =false;
 var score = width*0.2;
+var ended = false;
 console.log(bubblesLeft);
 for (var i = 0; i < bubble.length; i++) {
     bubblesLeft.push("bubble"+(i+1));
@@ -16,7 +17,7 @@ for (var i = 0; i < bubble.length; i++) {
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "1";
 function bubbleClick(id){
-  if(document.getElementById(id).style.opacity == "1"){
+  if(document.getElementById(id).style.opacity == "1" && ended==false){
     progress += 5;
     bubblesLeft.splice(bubblesLeft.indexOf(id), 1);
     completion(bubblesLeft.length,progress);
@@ -27,8 +28,11 @@ function bubbleClick(id){
       num = Math.floor(Math.random() * bubblesLeft.length);
       bubble[bubblesLeft[num]].style.opacity = "1";    }
     else{
-      alert("You're Fast!");
-      window.location.replace("./endgame-screen.html");
+      pause=true;
+      setTimeout(function(){
+            alert("You're Fast!");
+       window.location.replace("./endgame-screen.html");;
+          }, 1000);
     }
   }
   else{
@@ -62,16 +66,19 @@ if (window.location.href.indexOf("game") != -1){
 var width = 0;
 function timerBarStart() {
   var bar = document.getElementById("time"); 
-  var id = setInterval(frame, 200);
+  var id = setInterval(frame, 110);
   function frame() {
     if(pause==false){
       if (width >= 100) {
           clearInterval(id);
-          alert("Time's UP!");
-          window.location.replace("./endgame-screen.html");
+          ended =true;
+          setTimeout(function(){
+            alert("Time's UP!");
+            window.location.replace("./endgame-screen.html");
+          }, 1000);
       } else {
-          width++; 
-          bar.style.width = width + '%'; 
+          width++;
+          bar.style.width = width+"%";
       }
     }
   }
