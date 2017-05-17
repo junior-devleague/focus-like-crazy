@@ -141,3 +141,26 @@ CSS: Keli'i
   -design for the overlay
 JS: Kayla & Ian
   -link exit button
+--------------------------------------------
+5/12/17 - Friday
+
+Presentation: Kayla
+  -start on outline of slide
+Game: Jessi, Ian and Keli'i
+  -have progress bar appear on iphone
+--------------------------------------------
+5/15/17 - Monday
+
+Presentation: Kayla
+  -add slides
+  -record content
+Game: Jessi, Ian and Keli'i
+  -fixed how to play
+  -remove high score
+  -remove exit button
+--------------------------------------------
+5/17/17 - Wednesday
+
+Presentation: Everyone
+Game: Ian
+  -modified ending of bar
