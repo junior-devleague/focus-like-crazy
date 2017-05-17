@@ -43,18 +43,16 @@ body{
   height: 50px;
 }
 .flex {
-  max-width: 80%;
+  width: 80%;
+  display: flex;
+  align-content: left;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 #complete, #time{
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
-.container-bar {
-  display: flex;
-  align-content: left;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
 .pauseButton:hover {
