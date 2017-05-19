@@ -14,6 +14,7 @@ for (var i = 0; i < bubble.length; i++) {
       once: true
     });
 }
+document.getElementsByClassName("flex")[0].style.display = "flex";
 var num = Math.floor(Math.random() * bubblesLeft.length);
 bubble[num].style.opacity = "1";
 function bubbleClick(id){
@@ -46,13 +47,13 @@ function bubbleClick(id){
 function keepPlaying(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "none";
   document.getElementsByClassName("container-game")[0].style.display = "flex";
-  document.getElementsByClassName("container-bar")[0].style.display = "flex";
+  document.getElementsByClassName("flex")[0].style.display = "flex";
   pause=false;
 }
 function pauseButtonClick(id){
   document.getElementsByClassName("container-overlay")[0].style.display = "flex";
   document.getElementsByClassName("container-game")[0].style.display = "none";
-  document.getElementsByClassName("container-bar")[0].style.display = "none";
+  document.getElementsByClassName("flex")[0].style.display = "none";
   pause=true;
 }
 
