@@ -30,12 +30,12 @@ body{
 }
 #time{ /*time bar*/
   width: 0%;
-  height: 50%;
+  height: 20px;
   background-color:#4A90E2;
 }
 #complete {
 	width: 0%;
-  height: 50%;
+  height: 20px;
   background-color: rgba(244, 209, 66,0.95);
 }
 .exit {
